@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/type")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class TypeController {
     private final TypeService typeService;
 
