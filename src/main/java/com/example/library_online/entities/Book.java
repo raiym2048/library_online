@@ -18,7 +18,7 @@ public class Book {
     private String transcript;
     private String created_date;
     private Integer prize;
-    private Integer age_access;
+    private Integer ageAccess;
     private Boolean exist = true;
 
     @ManyToOne()
